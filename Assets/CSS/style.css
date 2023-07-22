@@ -1,0 +1,164 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./Assets/images/pexels-tirachard-kumtanom-733857.jpg);
+    background-size: cover;
+    /* opacity: 0.4; */
+    padding-top: 1.6rem;
+}
+
+#container{
+    margin: 0 auto;
+    width: 40rem;
+    height: 43rem;
+    overflow: hidden;
+    overflow-y: auto;
+    /* background-color: #659dbd; */
+    background-color: #fff;
+    box-shadow: inset 4px 9px 26px -12px rgba(0,0,0,0.75);
+}
+
+#container::-webkit-scrollbar {
+    display: none;
+}
+
+.title{
+    text-align: center;
+    margin-top: 0.8rem;
+    margin-bottom: 1.2rem;
+    padding-bottom: 0.8rem;
+    color: #553d67;
+    text-decoration: underline;
+    /* border-bottom: 1px solid black; */
+}
+
+.form-elem form{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding-left: 1.5em;
+}
+
+.form-elem form input[type="text"]{
+    width: 33rem;
+    padding: 0.7rem;
+    /* border: none; */
+    border: 0.5px solid gray;
+    border-radius: 0.6rem;
+    outline: none;
+}
+
+.select-container {
+    display: flex;
+    padding-top: 1.2rem;
+    /* border-top: 1px solid black; */
+}
+.select-items{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    line-height: 2.5rem;
+}
+#standard-select{
+    width: 80%;
+    padding: 0.3rem;
+    outline: none;
+}
+.time-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    line-height: 2.5rem;
+    padding-left: 4rem;
+}
+.time-container input[type="date"]{
+    width: 9rem;
+    padding: 0.2rem;
+}
+
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-container a{
+    margin-right: 2.8rem;
+    margin-left: 2.8rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+.btn1{
+    background-color: rebeccapurple;
+    padding: 1rem;
+    color: white;
+    width: 11rem;
+    font-size: 1rem;
+}
+.btn2{
+    background-color: rebeccapurple;
+    padding: 1rem;
+    color: white;
+    width: 11rem;
+    font-size: 1rem;
+}
+.btn2 i{
+    padding-right: 0.3rem;
+}
+
+#list-container{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 4rem;
+}
+
+#list-container ul li{
+    width: 100%;
+    padding-top: 1.2rem;
+    padding-bottom: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+    /* box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset; */
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+}
+
+.items{
+    display: flex;
+}
+.items .checkbox-cnt{
+    padding: 0.7rem;
+}
+.items .checkbox-cnt input.defaultcheckbox{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.select-color button{
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    width: 4rem;
+    height: 2rem;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: yellow;
+}
+
+
+
+
+
+

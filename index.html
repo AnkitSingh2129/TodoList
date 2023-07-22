@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo List App By Ankit Kumar Singh</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="Assets/CSS/style.css" />
+  </head>
+  <body>
+    <main>
+      <div id="container">
+        <div class="title">
+          <h1>TODO App</h1>
+        </div>
+        <div class="form-elem">
+          <form action="">
+            <label for="description">Description</label>
+            <input
+              type="text"
+              name="description"
+              id="inp"
+              placeholder="What do you need to do?"
+            />
+            <div class="select-container">
+              <div class="select-items">
+                <label for="standard-select">CATEGORY</label>
+                <select name="" id="standard-select">
+                  <option value="">Select a category</option>
+                  <option value="work">work</option>
+                  <option value="home">home</option>
+                  <option value="school">school</option>
+                  <option value="private">private</option>
+                </select>
+              </div>
+
+              <div class="time-container">
+                <label for="date">Due date</label>
+                <input type="date" name="date" id="taskDate"/>
+              </div>
+            </div>
+
+            <div class="btn-container">
+              <a href="" class="btn1" id="add"
+                ><i class="fa-solid fa-plus"></i> ADD TASK</a
+              >
+              <a href="" class="btn2" id="delete"
+                ><i class="fa-solid fa-trash"></i>DELETE TASK</a
+              >
+            </div>
+          </form>
+        </div>
+
+        <div id="list-container">
+          <ul id="list">
+            <!-- <li>
+              <div class="items">
+                <div class="checkbox-cnt">
+                  <input
+                    type="checkbox"
+                    id="${task.id}"
+                    class="defaultcheckbox custom-checkbox"
+                  />
+                </div>
+                <div>
+                  <h3>${task.text}</h3>
+                  <div class="display-date">
+                    <p>
+                      <i class="fa-solid fa-calendar-days"></i>
+                      <span>MAY 2,2019</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="select-color">
+                <button>Work</button>
+              </div>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <script src="Assets/JS/script.js"></script>
+  </body>
+</html>
