@@ -208,3 +208,13 @@ main{
         font-size: 0.7rem;
     }
 }
+
+@media screen and (max-width: 700px){
+    main{
+        padding: 0;
+    }
+    #container{
+        width: 100vw;
+        height: 100vh;
+    }
+}
